@@ -1,0 +1,92 @@
+https://github.com/StydeNet/unit-tests
+https://github.com/StydeNet/unit-tests/tree/master/src
+
+
+---hacer test---
+
+vendor/bin/phpunit
+alias t=vendor/bin/phpunit
+
+--composer unit---
+
+composer require phpunit/phpunit --dev
+vendor/bin/phpunit tests/ --colors
+vendor/bin/phpunit
+alias t=vendor/bin/phpunit
+
+https://styde.net/sustituye-implementaciones-usando-stubs-e-interfaces-en-php-poo
+
+composer require mockery/mockery --dev
+
+----error----
+
+http://filp.github.io/whoops/
+https://www.php.net/manual/es/function.set-error-handler.php
+https://www.php.net/manual/es/function.set-exception-handler.php
+https://www.php.net/manual/es/function.http-response-code.php
+
+composer require filp/whoops
+
+https://www.php.net/manual/es/function.class-alias.php
+
+bootstrap/start.php:
+$whoops = new \Whoops\Run;
+$whoops->pushHandler(new \Whoops\Handler\PrettyPageHandler);
+$whoops->register();
+
+---array_trabajar---
+
+https://www.php.net/manual/es/function.ob-start.php
+https://www.php.net/manual/es/function.ob-get-clean.php
+https://www.php.net/manual/es/function.extract.php
+
+https://styde.net/vagrant-homestead/
+
+https://uniwebsidad.com/libros/bootstrap-3/capitulo-1/la-primera-plantilla-bootstrap
+
+https://getbootstrap.com/docs/4.5/getting-started/introduction/
+
+//singleton
+
+https://es.wikipedia.org/wiki/Singleton#PHP5
+
+https://designpatternsphp.readthedocs.io/es/latest/Creational/Singleton/README.html
+
+http://www.cristalab.com/tutoriales/crear-e-implementar-el-patron-de-diseno-singleton-en-php-c256l/
+
+
+--- probelamas  con contenedores---
+
+$container->bind('key','Tests\Foo');
+$this->assertInstanceOf('Tests\Foo',$container->make('key'))
+
+--serviceProviders---
+
+https://styde.net/que-son-los-service-providers-de-laravel-y-como-usarlos/
+
+https://styde.net/cambiar-contrasena-con-laravel-validando-clave-actual/
+
+----compradores---
+
+
+https://github.com/StydeNet/unit-tests/compare/2.11...2.12
+
+https://github.com/StydeNet/unit-tests/compare/2.10...2.11
+
+https://github.com/StydeNet/unit-tests/compare/2.9...2.10
+
+https://github.com/StydeNet/unit-tests/compare/2.8...2.9
+
+https://github.com/StydeNet/unit-tests/compare/2.7...2.8
+
+https://github.com/StydeNet/unit-tests/compare/2.6...2.7
+
+https://github.com/StydeNet/unit-tests/compare/2.5...2.6
+
+
+
+
+
+
+
+
